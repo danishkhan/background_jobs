@@ -1,6 +1,6 @@
 require 'logger'
 $LOAD_PATH.unshift File.dirname(__FILE__) + '/../../lib'
-require 'app'
+require './app'
 require 'resque/server'
 
 use Rack::ShowExceptions

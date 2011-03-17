@@ -1,6 +1,6 @@
 require 'sinatra/base'
 require 'resque'
-require 'job'
+require './job'
 
 module Demo
   class App < Sinatra::Base
