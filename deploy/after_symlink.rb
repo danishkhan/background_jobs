@@ -1,0 +1,1 @@
+run "monit restart all -g background_jobs_resque"
