@@ -14,6 +14,8 @@ if AUTH_PASSWORD
   end
 end
 
+run App
+
 run Rack::URLMap.new \
   "/"       => Demo::App.new,
   "/resque" => Resque::Server.new
